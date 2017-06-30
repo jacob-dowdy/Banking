@@ -1,7 +1,7 @@
 class Account
 attr_reader :name, :balance
   
-  def initialize(name, balance=100)
+  def initialize(name, balance=95)
     @name = name
     @balance = balance
   end
